@@ -1,6 +1,0 @@
-Пользователи /users
- Создание  /users/create
- Список  /users/list
-  Активные /users/list/active
-   name qqqwww
-name qqqwww
