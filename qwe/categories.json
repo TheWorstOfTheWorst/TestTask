@@ -1,0 +1,34 @@
+[
+   {
+        "id": "1",
+        "name" : "Пользователи",
+        "alias": "/users",
+        "childrens":[
+            {
+            "id": "1.1",
+            "name" : "Создание",
+            "alias": " /users/create",
+            "childrens":[{}]
+            },
+            {
+            "id": "1.2",
+            "name" : "Список",
+            "alias": " /users/list",
+            "childrens":[{
+                "id": "1.2.1",
+                "name" : "Активные",
+                "alias": "/users/list/active",
+                "childrens":[{"id": "2",
+                    "name" : "name",
+                    "alias": "qqqwww",
+                    "childrens":[{}]}]
+            }]
+        }]
+    },
+    {
+        "id": "2",
+        "name" : "name",
+        "alias": "qqqwww",
+        "childrens":[{}]
+    }
+]
